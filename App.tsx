@@ -78,7 +78,7 @@ const App: React.FC = () => {
       const errorMessage: ChatMessage = {
         id: generateId(),
         role: Role.MODEL,
-        text: "Thầy xin lỗi, hiện tại thầy đang gặp chút sự cố kết nối. Em thử lại sau nhé!",
+        text: "Cô xin lỗi, hiện tại cô đang gặp chút sự cố kết nối. Em thử lại sau nhé!",
         isError: true
       };
       setMessages(prev => [...prev, errorMessage]);
