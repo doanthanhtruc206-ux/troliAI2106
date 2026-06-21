@@ -12,7 +12,7 @@ const App: React.FC = () => {
     {
       id: 'welcome',
       role: Role.MODEL,
-      text: 'Chào em! Thầy là Phúc. Em có bài toán khó nào cần thầy giúp không? Em có thể gõ đề bài hoặc chụp ảnh gửi cho thầy nhé.',
+      text: 'Chào em! Cô là Hà. Em có bài toán khó nào cần cô giúp không? Em có thể gõ đề bài hoặc chụp ảnh gửi cho cô nhé.',
     }
   ]);
   const [isLoading, setIsLoading] = useState(false);
